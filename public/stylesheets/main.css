@@ -1,0 +1,75 @@
+body {
+    font-family: Tahoma, Verdana, STHeiTi, "Microsoft YaHei", sans-serif;
+    /*background: url(@routes.Assets.versioned("images/534.jpeg"));*/
+}
+
+.top-menu {
+    background: rgba(217, 217, 217, .7) !important;
+}
+
+.left-side {
+    /*background: rgba(0, 0, 0, .4);*/
+}
+
+.content-block {
+    /*background: rgba(50, 50, 50, .6);*/
+}
+
+.left-side ul {
+    list-style: none !important;
+}
+
+.left-block {
+    background: rgba(50, 50, 125, .7);
+}
+
+.left-side li {
+    list-style: none !important;
+    padding: 0 !important;
+
+    font-size: 16px;
+    /*height: 50px;*/
+    line-height:14px;
+    margin-top:14px;
+    color: #fff;
+    border-bottom: 1px solid #f9f9f9;
+}
+
+.left-side li a {
+    color: #fff;
+    /*height: 40px; */
+}
+
+.top-header {
+}
+
+.top-header h3,
+.top-header h2 {
+    height: 48px;
+    line-height: 48px !important;
+}
+
+.top-column {
+    padding-bottom: 0 !important;
+    height: 60px;
+    line-height: 70px;
+
+}
+
+.menu-column {
+}
+
+.table-list {
+    padding-left: 0;
+}
+.table-list li p,
+.table-list li a {
+    padding-left: 10px;
+}
+.table-close{
+    cursor: pointer;
+}
+
+.left-block{
+    color:#ffffff;
+}

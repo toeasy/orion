@@ -1,0 +1,16 @@
+@import java.util
+@(member: util.List[Member])
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <title>show</title>
+    </head>
+    <body>
+        <ul>
+            @for(column <- member) {
+                <li>@column.id - @column.name - @column.phone</li>
+            }
+        </ul>
+    </body>
+</html>
