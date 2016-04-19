@@ -73,3 +73,13 @@ body {
 .left-block{
     color:#ffffff;
 }
+table th,
+table td{
+    font-size: 16px;
+}
+
+.footer-nav{
+
+    background: rgba(50, 50, 50, .1);
+    color:#ffffff;
+}
